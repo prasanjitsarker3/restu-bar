@@ -1,0 +1,18 @@
+.background-img{
+    /* background-image: url(../../Photo/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 40vw; */
+}
+.carousel-img{
+    width: 100px;
+    height: 500px;
+    
+}
+.text-caption{
+    text-align: center;
+    color:crimson;
+}
+

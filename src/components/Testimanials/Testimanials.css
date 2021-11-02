@@ -1,0 +1,41 @@
+.container-test{
+    text-align: center;
+    color:white;
+    background-color:indigo;
+}
+.container-test h5{
+    color:gold;
+}
+.testimanials-back{
+    background-color: indigo;
+
+}
+.test-list{
+    display: flex;
+    gap: 30px;
+    background-color:indigo;
+}
+.test-border{
+    background-color:indigo;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 20px;
+
+}
+.test-box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 50px;
+    background-color:indigo;
+}
+.gary{
+    color:rgb(235, 220, 220);
+}
+.food{
+    color: rgb(196, 60, 60);
+}
+@media (min-width: 688px){
+    .test-box{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

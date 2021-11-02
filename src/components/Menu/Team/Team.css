@@ -1,0 +1,31 @@
+.container-team{
+    text-align: center;
+    color: white;
+}
+.team-back{
+    background-color: indigo;
+}
+.container-team h5{
+    color: gold;
+}
+.card-group{
+    
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items:center;
+    margin: 30px;
+    padding:30px;
+   
+    
+}
+.card-photo{
+   
+    padding:5px;
+    color: white;
+}
+@media(max-width:688px){
+    .card-group{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,53 @@
+.container-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color:indigo;
+    
+}
+.container-all{
+    background-color:indigo;
+}
+.photo-div{
+   margin: 30px;
+   padding: 20px;
+   margin-left: 30px;
+}
+
+.photo-div h2{
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.photo-div h6{
+    font-style: italic;
+    color:gold;
+    
+}
+.photo-div h1 {
+    text-align: center;
+    color: coral;
+}
+.photo-div h3{
+    color: rgb(9, 231, 109);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-div{
+    text-align: center;
+    font-style: italic;
+    color:white;
+}
+.photo-first{
+    text-align: center;
+    padding:20px;
+}
+.photo-end{
+    margin-left: 50px;
+
+}
+@media (max-width: 688px){
+    .container-div{
+        grid-template-columns: repeat(1, 1fr)
+    }
+}
+.text-div h6{
+    color: gold;
+}

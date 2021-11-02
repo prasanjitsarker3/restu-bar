@@ -1,0 +1,34 @@
+.menu-text{
+    text-align: center;
+    
+}
+.menu-text h5{
+    font-style: italic;
+    color:gold;
+}
+.container-menu{
+  background-color:indigo;
+  color:white;
+}
+.menu-item{
+ text-align: center;
+ grid-template-columns: repeat(2, 1fr);
+ display: grid;
+ margin:70px;
+ padding:50px;
+ gap: 50px;
+}
+.menu-list{
+  display: flex;
+  gap: 50px;
+  
+}
+.menu-list p{
+  color:goldenrod;
+}
+@media(max-width:688px){
+  .menu-item{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
